@@ -1,0 +1,9 @@
+{
+	"name": "erukullapraveenkumar0-df",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2d85788a-a9ab-4ffe-934b-0482e1840d2d",
+		"tenantId": "27f3f47b-6c42-435e-b45b-c0c9619b1995"
+	}
+}

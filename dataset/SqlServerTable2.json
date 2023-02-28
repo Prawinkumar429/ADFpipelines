@@ -1,0 +1,142 @@
+{
+	"name": "SqlServerTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "CC_CALL_CENTER_SK",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_CALL_CENTER_ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_REC_START_DATE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_REC_END_DATE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_CLOSED_DATE_SK",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_OPEN_DATE_SK",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_NAME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_CLASS",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_EMPLOYEES",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_SQ_FT",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_HOURS",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_MANAGER",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_MKT_ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_MKT_CLASS",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_MKT_DESC",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_MARKET_MANAGER",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_DIVISION",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_DIVISION_NAME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_COMPANY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_COMPANY_NAME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_STREET_NUMBER",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_STREET_NAME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_STREET_TYPE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_SUITE_NUMBER",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_CITY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_COUNTY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_STATE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_ZIP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_COUNTRY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_GMT_OFFSET",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CC_TAX_PERCENTAGE",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "nation"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

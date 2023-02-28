@@ -1,0 +1,17 @@
+{
+	"name": "SnowflakeTable4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "TPCH_SF100",
+			"table": "SUPPLIER"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
