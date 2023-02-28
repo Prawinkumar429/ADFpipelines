@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "union.csv",
 				"folderPath": "DIM Folder",
 				"fileSystem": "inputbackup"
 			},
